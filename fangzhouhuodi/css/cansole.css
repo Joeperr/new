@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-align: center;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+header.console-header {
+	width: 100%;
+	height: 1.86rem;
+	text-align: center;
+	box-sizing: border-box;
+	border-bottom: 2px solid #07ca61;
+	position: relative;
+	color: #333;
+	font: 0.76rem/1.82rem '黑体';
+}
+
+.console-header .back-button {
+	position: absolute;
+	width: 1.24rem;
+	height: 1.82rem;
+	left: 0;
+	top: 0;
+	border: 0;
+	outline: none;
+	background:url(../img/icon-back.png) no-repeat center center #fff;
+}
+
+.count{
+	width: 100%;
+	height: 2.04rem;
+	box-sizing: border-box;
+	padding:0.28rem  0.4rem 0.2rem 0.4rem;
+	background: #f88266;
+}
+.count p{
+	font-size: 0.52rem;
+	line-height: 0.72rem;
+	color:#ffffff;
+	padding-left:0.24rem ;
+	text-align: center;
+}
+.count p span{
+	font-size: 0.6rem;
+}
+.cause{
+	border-bottom: 1px solid #dadada;
+	width: 100%;
+	height: 3.6rem;
+}
+.cause h3,h1{
+	text-align: center;
+}
+.cause h3{
+	font-size: 0.76rem;
+	margin:1.04rem 0 0.44rem 0;
+}
+.cause h1{
+	font-size: 0.56rem;
+	color: #07CA61;
+}
+
+.btn{
+	width:100%;
+	box-sizing: border-box;
+	padding: 0 0.4rem;
+	height: 1.96rem;
+	line-height: 1.96rem;
+	font-size: 0.64rem;
+	border-bottom: 1px solid #dadada;
+}
+.btn span{
+	display: inline-block;
+	height: 0.8rem;
+	width: 0.8rem;
+	border-radius: 50%;
+	border: 1px solid #dadada;
+	float: right;
+	margin-top: 0.6rem;
+}
+input:checked+span{
+	background:url(../img/gou.png) no-repeat center center #07CA61 ;
+}
+.login{
+	width: 14.2rem;
+	height: 1.9rem;
+	line-height: 1.9rem;
+	background: #07CA61;
+	text-align: center;
+	font-size: 0.64rem;
+	color: #ffffff;
+	margin: 0 0.4rem;
+	margin-top: 1.6rem;
+}
+
+
